@@ -1,0 +1,2 @@
+serviceClass: edu.cpp.cs585.client.GreetingService
+path: A2379307250D7A46081D58FEB63C5D6C.gwt.rpc

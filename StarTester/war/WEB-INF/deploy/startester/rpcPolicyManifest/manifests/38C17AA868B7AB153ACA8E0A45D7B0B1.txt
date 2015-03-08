@@ -1,0 +1,2 @@
+serviceClass: edu.cpp.cs585.client.GithubService
+path: C2A67DD965C06AA9CC07D05D8AC82386.gwt.rpc
