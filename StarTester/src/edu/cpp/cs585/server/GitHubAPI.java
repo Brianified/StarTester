@@ -17,6 +17,7 @@ import edu.cpp.cs585.shared.TestDiff;
  */
 public class GitHubAPI {
 
+	private static final String OAUTH_TOKEN = "input github oauth token here";
 	private final String USER_AGENT = "Mozilla/5.0";
 	private String gitHubURL;
 	
@@ -167,7 +168,7 @@ public class GitHubAPI {
 		//add request header
 		con.setRequestProperty("User-Agent", USER_AGENT);
 		con.setRequestProperty("Accept", "application/vnd.github.patch");
-		con.setRequestProperty("Authorization", "token 38b0ac0cec05358b94afb5bd217d91de74170778");
+		con.setRequestProperty("Authorization", "token "+OAUTH_TOKEN);
 		con.setRequestProperty("X-OAuth-Scopes", "gist, repo, user");
 		con.setRequestProperty("X-Accepted-OAuth-Scopes", "user");
  

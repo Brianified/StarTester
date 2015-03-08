@@ -1,2 +1,3 @@
 # Module startester
 # RPC service class, partial path of RPC policy file
+edu.cpp.cs585.client.GithubService, C2A67DD965C06AA9CC07D05D8AC82386.gwt.rpc
